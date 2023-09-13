@@ -4,3 +4,27 @@
     "mysql2": "^3.4.0"
   }
 }
+
+{
+  "name": "connectnode",
+  "version": "1.0.0",
+  "description": "Node connection code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^9.2.11",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.17",
+    "@babel/node": "^7.22.15",
+    "@babel/preset-env": "^7.22.15",
+    "esm": "^3.2.25"
+  }
+}
