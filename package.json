@@ -1,11 +1,4 @@
 {
-  "dependencies": {
-    "inquirer": "^8.2.4",
-    "mysql2": "^3.4.0"
-  }
-}
-
-{
   "name": "connectnode",
   "version": "1.0.0",
   "description": "Node connection code",
